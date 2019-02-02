@@ -61,3 +61,6 @@ print(1,2,2,2,3)
     console.log(highest);
 }
 
+import {pank} from './student.js'
+
+console.log(pank.greet());
