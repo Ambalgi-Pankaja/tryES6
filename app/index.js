@@ -28,3 +28,19 @@ print(1,2,2,2,3)
 
     console.log(name+lastName);
 }
+
+// arrow functions
+{
+    let printThis = (a=1, b=2, c=3) => {
+        console.log(a, b, c);
+    }
+
+    printThis();
+}
+
+//map functions
+{
+    let points = [1,2,3,4,5,6];
+    let addedOne = points.map(element => element+1)
+    console.log(addedOne);
+}
