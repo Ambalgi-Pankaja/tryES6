@@ -44,3 +44,20 @@ print(1,2,2,2,3)
     let addedOne = points.map(element => element+1)
     console.log(addedOne);
 }
+
+//filter functions
+
+{
+    let scores = [55,56,78,89,90, 100];
+
+    let passing = scores.filter (element => element >=70);
+
+    console.log(passing);
+
+    let highest = scores.find(element => {
+        return element == 100;
+        }
+    )
+    console.log(highest);
+}
+
