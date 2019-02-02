@@ -1,2 +1,6 @@
-console.log("Hello ES6")
-console.log("helllo its me ")
+// spread operator
+function print(...numbers){
+    console.log(numbers);
+}
+
+print(1,2,2,2,3)
